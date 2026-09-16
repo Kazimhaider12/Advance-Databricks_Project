@@ -17,12 +17,7 @@ This project ingests raw Formula 1 data (drivers, races, results, constructors, 
 
 
 <img width="1280" height="390" alt="image" src="https://github.com/user-attachments/assets/0a3aed86-e379-4a0a-8704-5a345e1cb640" />
-```
-┌─────────────┐      ┌─────────────┐      ┌─────────────┐
-│   BRONZE    │ ───▶ │   SILVER    │ ───▶ │    GOLD     │
-│  Raw Data   │      │Cleaned Data │      │  Insights   │
-└─────────────┘      └─────────────┘      └─────────────┘
-```
+
 
 ### 🥉 Bronze Layer — Raw Ingestion
 Raw CSV files ingested as-is (no transformation) to preserve source-of-truth data.
